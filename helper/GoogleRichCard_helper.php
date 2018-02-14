@@ -12,7 +12,7 @@ class GoogleRichCard{
 	 * @subpackage	Helpers
 	 * @category	Helper
 	 * @author		Lufti Nurfahmi
-	 * @link		http://codeigniter.com/user_guide/libraries/benchmark.html
+	 * @link		http://luftinurfahmi.net/tags/googlerichcard-helper
 	 */
 	
 	

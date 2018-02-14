@@ -7,15 +7,15 @@ Result will create string with application/ld+json;
 
 Installation
 ------------
-Copy `GoogleRichCard_helper.php` into the `applications/helpers` directory.
+Copy `goooglerichcard_helper.php` into the `applications/helpers` directory.
 
 You can set autoload helper in config/autoload
 
-$autoload['helper'] = array('GoogleRichCard_helper');
+$autoload['helper'] = array('goooglerichcard_helper');
 
 or you can load in each controller 
 
-$this->load->helper('GoogleRichCard_helper');
+$this->load->helper(goooglerichcard_helper);
 
 
 Usage
