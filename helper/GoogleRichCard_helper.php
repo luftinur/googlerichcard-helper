@@ -105,8 +105,8 @@ class GoogleRichCard{
 			
 	}
 	 
-	 
-	
+	  
+	// .. next method will update
 	
 	
 	
