@@ -17,7 +17,8 @@ class GoogleRichCard{
 	
 	
 	
-	if(!function_exists('SocialProfile')){
+	
+	
 	/**
 	 * Create Social Profile Structure Data.
 	 * Ref : https://developers.google.com/search/docs/data-types/social-profile
@@ -36,7 +37,7 @@ class GoogleRichCard{
 					  "@type": "Person",
 					  "name": "'.$fullname.'",
 					  "url": "'.$url.'",
-					  "sameAs": '.json_encode($data['social']]).'
+					  "sameAs": '.json_encode($data['social']).'
 					}';
 				$richcard .= '</script>';
 				
@@ -46,9 +47,8 @@ class GoogleRichCard{
 			return '';
 			
 		}
-	}
 	
-	if(!function_exists('RichCardArticle')){
+
 		
 	/**
 	 * Create Article Structure Data.
@@ -106,7 +106,7 @@ class GoogleRichCard{
 	}
 	 
 	 
-	}
+	
 	
 	
 	

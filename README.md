@@ -24,7 +24,7 @@ Usage
 Social Profile:
 -----------------------------------
 ```php
-GoogleRichCard::SocialProfile($fullname = '', $url = '', $data = array());
+GoogleRichCard::SocialProfile($fullname = '', $url = '', $sociallink = array());
 
 # Results in
 <script type="application/ld+json">
@@ -33,11 +33,7 @@ GoogleRichCard::SocialProfile($fullname = '', $url = '', $data = array());
 		  "@type": "Person",
 		  "name": "Your Name",
 		  "url": "http://your-url-here",
-		  "sameAs": [
-			"social link",
-			"social link",
-			"social link",
-		  ]
+		  "sameAs": $sociallink // json
 		}
 		</script>
 ```
