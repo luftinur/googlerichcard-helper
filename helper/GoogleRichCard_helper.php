@@ -12,7 +12,7 @@ class GoogleRichCard{
 	 * @subpackage	Helpers
 	 * @category	Helper
 	 * @author		Lufti Nurfahmi
-	 * @link		http://luftinurfahmi.net/tags/googlerichcard-helper
+	 * @link		https://www.codeigniter.com/userguide3/general/helpers.html
 	 */
 	
 	
@@ -73,13 +73,9 @@ class GoogleRichCard{
 						    "@id": "'.$pathurl.'"
 						  },
 						  "headline": "'.$data['title'].'",
-						  "image": [
-						    "https://example.com/photos/1x1/photo.jpg",
-						    "https://example.com/photos/4x3/photo.jpg",
-						    "https://example.com/photos/16x9/photo.jpg"
-						   ],
-						  "datePublished": "2015-02-05T08:00:00+08:00",
-						  "dateModified": "2015-02-05T09:20:00+08:00",
+						  "image": '.json_encode($data['images']).',
+						  "datePublished": "'.$data['datePublished'].'",
+						  "dateModified": "'.$data['dateModified'].'",
 						  "author": {
 						    "@type": "'.$authortype.'",
 						    "name": "'.$data['authorname'].'"
@@ -89,8 +85,7 @@ class GoogleRichCard{
 						    "name": "'.$data['publisherName'].'",
 						    "logo": {
 						      "@type": "ImageObject",
-						      "url": "'.$data['publisherLogo'].'",
-						      "width" : 
+						      "url": "'.$data['publisherLogo'].'"
 						    }
 						  },
 						  "description": "'.$data['excerpt'].'"			
@@ -105,8 +100,8 @@ class GoogleRichCard{
 			
 	}
 	 
-	  
-	// .. next method will update
+	 
+	
 	
 	
 	
