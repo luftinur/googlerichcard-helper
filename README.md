@@ -20,6 +20,8 @@ $this->load->helper(goooglerichcard_helper);
 
 Usage
 =====
+Usefull Link How To Use This Helper :
+http://www.luftinurfahmi.net/tags/structure-data
 
 Social Profile:
 -----------------------------------
